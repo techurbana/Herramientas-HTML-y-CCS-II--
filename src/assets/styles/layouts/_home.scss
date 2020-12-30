@@ -1,0 +1,35 @@
+body {
+  font-family: $font-family-serif;
+  height: 100%;
+  text-align: justify;
+  font-size: 1.5rem;
+  background: url("/assets/images/scroll-background.png") no-repeat center top fixed;
+  background-size: cover;
+}
+
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+}
+
+.button-active {
+  background-color: black;
+  color: white;
+}
+
+.logo {
+  width: 140px;
+}
+
+@responsive {
+  .center-65 {
+    width: 65%;
+    margin: 0 auto;
+  }
+}
+
+.card {
+  background-color: white;
+  border: 1px solid lightgray;
+  padding: 20px;
+}
